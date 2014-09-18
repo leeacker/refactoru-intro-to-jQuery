@@ -1,10 +1,6 @@
 $(document).on('ready', function() {
 
 	// confirm before navigating away from the page - if the user does not leave the page, remove the link
-	// $('a').mousedown(function(){
-	// 	var whichA = $('a:active').attr('id');
-	// 	console.log(whichA);
-	// });
 	var callerID = function(event){
 		return event.target.id;
 	}
